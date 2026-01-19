@@ -1,0 +1,12 @@
+const express=require('express')
+const cors=require('cors')
+const dotenv=require('dotenv')
+const dbConnection=require('./Config/dbConnect')
+const {errorHandling}=require('./Constant/message')
+dotenv.config()
+const app=express()
+app.use(cors())
+app.use(express.json())
+dbConnection()
+app.use(errorHandling)
+module.exports=app
