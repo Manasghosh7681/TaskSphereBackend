@@ -5,6 +5,7 @@ const dbConnection = async() => {
         console.log('Database connected')
     } catch (err) {
         console.log(`Database connection failed`,err.message)
+        process.exit(1)
     }
 }
 module.exports = dbConnection;
