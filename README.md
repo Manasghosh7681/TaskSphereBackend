@@ -1,7 +1,7 @@
-#project setup
-1.git clone https://github.com/Manasghosh7681/TaskSphereBackend.git
-2.cd TaskSphereBackend
-3.npm i
+#project setup </br>
+1.git clone https://github.com/Manasghosh7681/TaskSphereBackend.git </br>
+2.cd TaskSphereBackend </br>
+3.npm i </br>
 
-#run backend
-4.node --watch server.js
+#run backend </br>
+4.node --watch server.js </br>
